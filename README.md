@@ -1,2 +1,2 @@
-# integliatech
-This is integlia tech website 
+# Integlia Technologies
+Coming soon.

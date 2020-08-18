@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Integlia Technology Solutions</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/barebones.css">
+  <link rel="stylesheet" href="css/skeleton-legacy.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon-16.png">
+
+  <!-- Adding java script referance here -->
+  <script src="js/submit_javascript.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- start with a grid-container -->
+  <!-- direct children are automatically grid items -->
+  <div class="top-accent">
+  </div>
+  <div class="grid-container full">
+    <div style="margin-top: 5%;">
+      <h1 style="color:#0C1C73;"><strong> <b>Integlia Technology Solutions</b></strong></h1>
+      <p>Hi there! 👋🏻 It's nice to see you here. We are on a journey to build great products. Come join us!</p>
+      <p>Integlia is a digital technology solutions and service company it is inspired to work
+        on real world problems to address and improve the lives of the mass population of the world.
+      </p>
+      <p>We love to solve complex problems. We see each problem through a lens of extensive user research, empathy, and how we can build a thoughtful product</p>
+      <p>If you would like to embark on this journey with us. Come say <em>Hi</em>, don't be shy.</p>
+      <p style="text-align:center;"><a class="button button-primary" href="mailto:vijay.sangale@integliatech.com"> Get in touch </a></p>
+    </div>
+  </hr>
+  </div>
+  <div class="mid-section">
+    <div class="grid-container full">
+    <h4 style="text-align:center; margin-top:5%"><strong>We are Hiring! Come work with us 🎉</strong></h4>
+    <h5 style="text-align:center;"> Looking for excellent development skills and the ability to translate those into elegant, scalable applications. Most importantly have the mindset to work well in a highly agile, motivated, fast-growing start-up environment.
+    </h5>
+    <table class="u-full-width" style="margin: 5% 0 5% 0">
+      <thead>
+        <tr>
+          <th>Position Name </th>
+          <th>Skills Required</th>
+          <th>Experience Required</th>
+          <th>Open Positions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="title">React Native Developer - Frontend</td>
+          <td>React Native, JavaScript, ReactJS, Android, iOS</td>
+          <td>2-4 Years</td>
+          <td class="number">1</td>
+        </tr>
+        <tr>
+          <td><p class="title"> React Native Developer - Backend </p>
+              <p>Strong knowledge of React Native and NodeJS, Deep knowledge of JavaScript, Experience in building server-side applications using NodeJS and ReactJS.</p>
+          </td>
+          <td>NodeJs, JavaScript, React Native, Relational Database, PostgreSQL, NoSQL, MangoDB, ReactJS, Android, iOS</td>
+          <td>2-5 Years</td>
+          <td class="number">1</td>
+        </tr>
+        <tr>
+          <td class="title">Web Developer - Intern</td>
+          <td>Wed development, JavaScript, Python</td>
+          <td>Recent graduates or in graduting soon candidates will be considered for this role.</td>
+          <td class="number">2</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+  </div>
+</hr>
+  <div class="row" id="contact-us">
+    <div class="offset-by-two eight columns">
+      <div style="margin-top: 10%;">
+        <h4 style="text-align:center; margin:5%"><strong>Contact Us</strong></h4>
+    <!-- The above form looks like this -->
+      <form>
+          <div class="halves">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="youremail@example.com" id="exampleEmailInput">
+          </div>
+          <div class="halves">
+            <label for="phoneInput">Your Contact Number</label>
+            <input class="u-full-width" type="tel" placeholder="+91 - " id="phoneInput">
+          </div>
+          <div class="halves">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Partnership</option>
+              <option value="Option 2">Consultation</option>
+              <option value="Option 3">Work with us</option>
+            </select>
+          </div>
+          <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width" placeholder="Hi Integlia , " id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox">
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit" onclick="sendMail(); return false">
+      </form>
+    </div>
+<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+  </div>
+</div>
+<div class="footer u-full-width">
+  <p>Copyright &copy 2020 Integlia Technology Solutions Pvt. Ltd. <br>All Rights Reserved. </p>
+</div>
+</div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
