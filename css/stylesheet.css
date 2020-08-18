@@ -1,0 +1,44 @@
+body {
+  padding: 16px;
+}
+
+.grid-container halves {
+margin-top: 80px;
+}
+
+.top-accent{
+  height: 10%;
+  background-color: #03045e;
+}
+
+.mid-section{
+  margin-top:80px;
+  background: #f5f5fc;
+  border-top: : 1px solid;
+  border-bottom: : 1px solid;
+  border-top-color: #efeff2;
+  border-bottom-color: #efeff2;
+  border-radius: 1%;
+}
+
+#contact-us{
+  padding: 16px;
+}
+.footer {
+  border-top: 1px solid;
+  border-top-color: #efeff2;
+  padding:20px 0 10px 0;
+  text-align: center;
+}
+
+tr {
+  vertical-align: top;
+}
+
+td.title, p.title {
+  font-weight: 600;
+}
+
+td.number {
+  text-align: center;
+}
