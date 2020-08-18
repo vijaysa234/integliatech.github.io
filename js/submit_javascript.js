@@ -5,8 +5,8 @@ function sendMail() {
   let Message = document.getElementById("exampleMessage").value;
 
   var link =
-    "mailto:merarozgarjobs@gmail.com" +
-    "?cc=merarozgarjobs@gmail.com" +
+    "mailto:vijay.sangale@integliatech.com" +
+    "?cc=vijay.sangale@integliatech.com" +
     "&subject=" +
     encodeURIComponent("Integlia , contact form ") +
     "&body=" +
